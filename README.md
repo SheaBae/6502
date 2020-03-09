@@ -12,6 +12,7 @@ The current version of my 6502 SBC is programmed to display a message on a displ
 - Other - A compatable EEPROM flasher/programmer (cheap ones on eBay), Adafruit FTDI friend (serial to USB), LED alphanumeric segments, push button, 1Kohm & 300ohm resistors, 0.1uf cap, cheap FPGA (again....eBay! its like $20), 5V power source, and a 1MHz clock.
 - Software - VASM and whatever flasher program comes with your EEPROM programmer.
 - 3/9/20 - Schematics comming soon!
+- Soooo....where do I get the chips....that were made in the 1980s?? Easy! The chips needed can be found on old computers, or bought cheap an used on eBay, however Western Design Center still makes the MOS chips listed above while TI and ATMEL/Microchip still make the rest.
 # Problems and Future Changes
 - 3/9/20 - Currently the LED decode and control logic is ran off an ATMEGA, which is a microcontroller, and because of that the program runs so slow the LEDs can't actually display a message, the next version will use an FPGA as actual logic is needed.
 - 3/9/20 - The next version will be running Microsoft BASIC/AppleSoft BASIC.
