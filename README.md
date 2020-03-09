@@ -3,8 +3,8 @@ Open source 6502 single board computer files, plans, and resources.
 # About
 The current version of my 6502 SBC is programmed to display a message on a display made from 6 alphanumeric LED segments, the LEDs are drivin by two ATMEGA328Ps. 
 - 6502.asm   [This is the main program that gets the 6502 up n' runnin and executing code, this file gets flashed onto ROM]
-- DISPLAY.io [This is the 'decode' program for the LED segments, this gets flashed onto an ATMEGA]
-- plogic.io  [This is the segment selection program, this file also gets flashed onto an ATMEGA]
+- DISPLAY.ino [This is the 'decode' program for the LED segments, this gets flashed onto an ATMEGA]
+- plogic.ino  [This is the segment selection program, this file also gets flashed onto an ATMEGA]
 
 - INFO - The beginning of the 6502.asm, which is the bulk of the file has very useful info on how you display text on the LED segments, its loosely based on the binary representation of ASCII. I will eventually upload plans on how you can build your own 6502 SBC, but there are many YouTube videos and how to guides on building a 6502 SBC out there worth looking into.
 # Problems and Future Changes
