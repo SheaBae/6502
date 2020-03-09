@@ -1,4 +1,4 @@
-# 6502 SBC
+# (✿◠‿◠) 6502 SBC (づ｡◕‿‿◕｡)づ
 Open source 6502 single board computer files, plans, and resources.
 # About
 The current version of my 6502 SBC is programmed to display a message on a display made from 6 alphanumeric LED segments, the LEDs are drivin by two ATMEGA328Ps. 
